@@ -1,0 +1,22 @@
+﻿
+<ul class="navbar-nav">
+@if (User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a  class="nav-link "  style="font-weight:bold;"href="/Dashboard/Index" title="Manage">Witaj @User.Identity.Name!</a>
+    </li>
+    <li class="nav-item">
+            <a class="nav-link" style="font-weight:bold;"href="/Login/Logout"  >Wyloguj się</a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link " style="font-weight:bold;" href="/Register/Index">Rejestracja</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link "  style="font-weight:bold;"href="/Login/Index">Logowanie</a>
+    </li>
+}
+</ul>
+

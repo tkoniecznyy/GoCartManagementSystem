@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoCart_ManagementSystem", "GoCart_ManagementSystem\GoCart_ManagementSystem.csproj", "{092F2D87-9DB9-4197-BC5B-12CE3C67BEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5C88E2F8-76E6-4BA0-88AA-EA2C44F402EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092F2D87-9DB9-4197-BC5B-12CE3C67BEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F2D87-9DB9-4197-BC5B-12CE3C67BEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F2D87-9DB9-4197-BC5B-12CE3C67BEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F2D87-9DB9-4197-BC5B-12CE3C67BEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C88E2F8-76E6-4BA0-88AA-EA2C44F402EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C88E2F8-76E6-4BA0-88AA-EA2C44F402EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C88E2F8-76E6-4BA0-88AA-EA2C44F402EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C88E2F8-76E6-4BA0-88AA-EA2C44F402EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4227D4D-6FF4-4936-8FC7-5F17BE7607E0}
+	EndGlobalSection
+EndGlobal

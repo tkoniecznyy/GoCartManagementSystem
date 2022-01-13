@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-GoCart_ManagementSystem-83ADFA9E-C973-4ED6-8846-CBDF7BCD7DE2</UserSecretsId>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MySql.Data" />
+    <None Remove="MySql.Data.EntityFrameworkCore" />
+    <None Remove="Services\" />
+    <None Remove="Models\DTO\" />
+    <None Remove="AuthenticationJWT\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Data\Migrations\" />
+    <None Remove="Views\Login\" />
+    <None Remove="Views\Register\" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Models\Validators\" />
+    <None Remove="FluentValidation.AspNetCore" />
+    <None Remove="FluentValidation" />
+    <None Remove="Views\Dashboard\" />
+    <None Remove="Bootstrap.v3.Datetimepicker.CSS" />
+    <None Remove="Bootstrap.v3.Datetimepicker" />
+    <None Remove="Views\UserSettings\" />
+    <None Remove="Views\Admin\" />
+    <None Remove="Microsoft.TestPlatform" />
+    <None Remove="Moq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.19" />
+    <PackageReference Include="MySql.Data" Version="8.0.27" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="Bootstrap.v3.Datetimepicker.CSS" Version="4.17.49" />
+    <PackageReference Include="Bootstrap.v3.Datetimepicker" Version="4.17.49" />
+    <PackageReference Include="Microsoft.TestPlatform" Version="17.0.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Models\DTO\" />
+    <Folder Include="AuthenticationJWT\" />
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Register\" />
+    <Folder Include="Models\Validators\" />
+    <Folder Include="Views\Dashboard\" />
+    <Folder Include="Views\UserSettings\" />
+    <Folder Include="Views\Admin\" />
+  </ItemGroup>
+</Project>
