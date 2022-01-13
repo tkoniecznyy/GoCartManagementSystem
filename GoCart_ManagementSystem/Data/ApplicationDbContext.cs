@@ -39,7 +39,7 @@ namespace GoCart_ManagementSystem.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = @"SERVER=kt135075-001.dbaas.ovh.net;PORT=35547;UID=root32011;PASSWORD=koniecznyPWSZ32011;DATABASE=pwsz;convert zero datetime=True";
+            string connectionString = "github";
 
             optionsBuilder.UseMySQL(connectionString);
 
