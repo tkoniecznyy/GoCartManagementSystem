@@ -1,12 +1,4 @@
-﻿/*
- *
- *
- *
- *
- * source : https://stackoverflow.com/questions/4034190/cookie-is-not-a-function
- *
- *
- * */
+
 
 
 
